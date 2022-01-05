@@ -1,0 +1,33 @@
+{% assign read_time = project.content | number_of_words | divided_by: 180 | plus: 1 %}
+{% assign year = project.date | date: "%Y" %}
+{% assign tags = project.tags | join: "" %}
+{% assign categories = project.categories | join: "" %}
+
+<li>
+    <h3><a class="post-title" href="{{ project.url | prepend: site.baseurl }}">{{ project.title }}</a>
+    </h3>
+    <p>{{ project.description }}</p>
+    <p class="post-meta"> {{read_time}} min read &nbsp; &middot; &nbsp;
+    {{ project.date | date: '%B %-d, %Y' }}
+    </p>
+    <p class="post-tags">
+    <a href="{{ year | prepend: '/blog/' | prepend: site.baseurl}}">
+        <i class="fas fa-calendar fa-sm"></i> {{ year }} </a>
+
+        {% if tags != "" %}
+        &nbsp; &middot; &nbsp;
+        {% for tag in project.tags %}
+        <a href="{{ tag | prepend: '/blog/tag/' | prepend: site.baseurl}}">
+            <i class="fas fa-hashtag fa-sm"></i> {{ tag }}</a> &nbsp;
+            {% endfor %}
+        {% endif %}
+
+        {% if categories != "" %}
+        &nbsp; &middot; &nbsp;
+        {% for category in project.categories %}
+        <a href="{{ category | prepend: '/blog/category/' | prepend: site.baseurl}}">
+            <i class="fas fa-tag fa-sm"></i> {{ category }}</a> &nbsp;
+            {% endfor %}
+        {% endif %}
+</p>
+</li>
