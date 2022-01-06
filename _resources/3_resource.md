@@ -1,10 +1,10 @@
 ---
 layout: page
-title: ROS2
-description: testing resources try 2
+title: test
+description: bop resources
 img: assets/img/12.jpg
-importance: 2
-category: EDA
+importance: 1
+category: ROS
 date: 2022-01-04
 ---
 

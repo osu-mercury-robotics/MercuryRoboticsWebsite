@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Mercury Robotics Club # the website title (if blank, full name will be used instead)
+title: Mercury Robotics # the website title (if blank, full name will be used instead)
 first_name: FirstName
 middle_name: Middle
 last_name: LastName

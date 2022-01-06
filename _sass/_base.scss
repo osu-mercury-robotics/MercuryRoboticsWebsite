@@ -127,6 +127,9 @@ blockquote {
   }
   .navbar-brand {
     color: var(--global-text-color);
+    &:hover {
+      color: var(--global-hover-color);
+    }
   }
   .navbar-nav .nav-item .nav-link {
     color: var(--global-text-color);
@@ -260,7 +263,6 @@ footer.sticky-bottom {
 // Blog
 
 .header-bar {
-  border-bottom: 1px solid var(--global-divider-color);
   text-align: center;
   padding-top: 2rem;
   padding-bottom: 5rem;
@@ -278,7 +280,7 @@ footer.sticky-bottom {
     border-bottom: 1px solid var(--global-divider-color);
     list-style: none;
     padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-bottom: 0rem;
     .post-meta {
       color: var(--global-text-color-light);
       font-size: 0.875rem;
@@ -367,7 +369,7 @@ footer.sticky-bottom {
 
   h2.category {
     color: var(--global-divider-color);
-    border-bottom: 1px solid var(--global-divider-color);
+    border-bottom: 3px solid var(--global-divider-color);
     padding-top: 0.5rem;
     margin-top: 2rem;
     margin-bottom: 1rem;
@@ -375,6 +377,17 @@ footer.sticky-bottom {
   }
 }
 
+.resources {
+  h2.category {
+    color: var(--global-divider-color);
+    border-bottom: 3px solid var(--global-divider-color);
+    padding-top: 0.5rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    text-align: right;
+  }
+
+}
 
 // Publications
 
