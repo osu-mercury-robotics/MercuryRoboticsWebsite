@@ -1,18 +1,15 @@
 ---
-layout: default
+layout: header_page
 title: resources
 permalink: /resources/
-description: Resources...
+description: a collection of various technical resources
 nav: true
 display_categories: [ROS, EDA]
 ---
 
 <!-- pages/resources.md -->
 <div class="resources">
-  <div class="header-bar">
-    <h1>{{ page.title }}</h1>
-    <h2>{{ page.description }}</h2>
-  </div>
+
   <!-- Loop through categories -->
   {%- for category in page.display_categories %}
   <div class = "container">
