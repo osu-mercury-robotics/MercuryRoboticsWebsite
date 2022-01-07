@@ -286,17 +286,11 @@ footer.sticky-bottom {
     border: 1px solid var(--global-bg-color);
     list-style: none;
     background-color: var(--global-code-bg-color);
-    outline: var(--global-divider-color);
-    box-shadow: 2px 2px var(--global-divider-color);
     margin-bottom: 10px;
     padding: 10px;
-    border-radius: 10px;
     &:hover {
       border: 1px solid var(--global-theme-color);
-      cursor:pointer;
     }
-    //padding-top: 2rem;
-    //padding-bottom: 0rem;
     .post-meta {
       color: var(--global-text-color-light);
       font-size: 0.875rem;
@@ -308,13 +302,9 @@ footer.sticky-bottom {
     }
     a {
       color: var(--global-theme-color);
-      text-decoration: underline;
-      text-decoration-color: var(--global-bg-color);
       font-weight: 400;
       &:hover {
         color: var(--global-hover-color);
-        text-decoration: underline;
-        text-decoration-color: var(--global-hover-color);
       }
     }
   }

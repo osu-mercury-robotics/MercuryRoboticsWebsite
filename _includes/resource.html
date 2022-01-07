@@ -3,10 +3,10 @@
 {% assign tags = resource.tags | join: "" %}
 {% assign categories = resource.categories | join: "" %}
 
-<li>
+<li class="card hoverable">
     
     <h3>
-        <a class="post-title" href="{{ resource.url | prepend: site.baseurl }}">{{ resource.title }}</a>
+        <a class="post-title stretched-link" href="{{ resource.url | prepend: site.baseurl }}">{{ resource.title }}</a>
     </h3>
     <p>{{ resource.description }}</p>
     <!-- <p class="post-meta"> {{read_time}} min read &nbsp; &middot; &nbsp;{{ resource.date | date: '%B %-d, %Y' }}</p> -->
