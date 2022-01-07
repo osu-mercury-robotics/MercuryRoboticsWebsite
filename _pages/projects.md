@@ -4,8 +4,9 @@ title: projects
 permalink: /projects/
 description: "all of our projects: past, present, future"
 nav: true
-display_categories: [work, fun]
+display_categories: [work, fun, past, present]
 horizontal: false
+importance: 1
 ---
 
 <!-- pages/projects.md -->

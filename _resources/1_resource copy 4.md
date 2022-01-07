@@ -1,10 +1,11 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
+title: ROS1
+description: testing resources
 img: assets/img/12.jpg
 importance: 1
-category: work
+category: ROS
+date: 2022-01-04
 ---
 
 Every project has a beautiful feature showcase page.

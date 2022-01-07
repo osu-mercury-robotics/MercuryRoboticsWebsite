@@ -5,6 +5,7 @@ permalink: /resources/
 description: a collection of various technical resources
 nav: true
 display_categories: [ROS, EDA]
+importance: 2
 ---
 
 <!-- pages/resources.md -->

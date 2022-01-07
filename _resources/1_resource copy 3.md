@@ -1,10 +1,11 @@
 ---
 layout: page
-title: project 6
-description: a project with no image
-img:
-importance: 4
-category: fun
+title: ROS1
+description: testing resources
+img: assets/img/12.jpg
+importance: 1
+category: ROS
+date: 2022-01-04
 ---
 
 Every project has a beautiful feature showcase page.

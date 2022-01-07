@@ -9,12 +9,12 @@
         <a class="post-title stretched-link" href="{{ resource.url | prepend: site.baseurl }}">{{ resource.title }}</a>
     </h3>
     <p>{{ resource.description }}</p>
-    <!-- <p class="post-meta"> {{read_time}} min read &nbsp; &middot; &nbsp;{{ resource.date | date: '%B %-d, %Y' }}</p> -->
+    
     <!-- Adds list of categories -->
     <!-- <p class="post-tags">
-        {% if categories != "" %}
-        {% for category in resource.categories %}
-        <a href="{{ category | prepend: '/resources/category/' | prepend: site.baseurl}}">
+        {% if tags != "" %}
+        {% for tag in resource.tags %}
+        <a href="{{ tag | prepend: '/resources/tags/' | prepend: site.baseurl}}">
             <i class="fas fa-tag fa-sm"></i> {{ category }}</a> &nbsp;
             {% endfor %}
         {% endif %}

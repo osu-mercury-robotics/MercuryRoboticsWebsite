@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Introduction to Robot Operating System (ROS)
-description: Beginner intro to ROS's structure, nomenclature, installation, and usage.
+title: ROS1
+description: testing resources
 img: assets/img/12.jpg
 importance: 1
 category: ROS

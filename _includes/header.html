@@ -25,7 +25,7 @@
             <ul class="navbar-nav ml-auto flex-nowrap">
 
               <!-- Other pages -->
-              {%- assign sorted_pages = site.pages | sort: "title" -%}
+              {%- assign sorted_pages = site.pages | sort: "importance" -%}
               {%- for p in sorted_pages -%}
               {%- if p.nav and p.autogen == nil -%}
               {%- if p.dropdown %}
