@@ -4,7 +4,7 @@ title: Resources
 permalink: /resources/
 description: a collection of various technical resources
 nav: true
-display_categories: [General, Electromechanical, Mechanical, Electronics, Programming, ROS]
+display_categories: [General, Electromechanical, Mechanical, Electronics, Programming, ROS, Website]
 importance: 2
 ---
 
