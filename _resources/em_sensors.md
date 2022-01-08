@@ -1,10 +1,10 @@
 ---
 layout: page
-title: ROS1
-description: testing resources
-img: assets/img/12.jpg
-importance: 1
-category: ROS
+title: Sensors
+description: blah blah blah
+img: 
+importance: 2
+category: Electromechanical
 date: 2022-01-04
 ---
 

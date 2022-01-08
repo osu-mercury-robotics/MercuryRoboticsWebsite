@@ -1,10 +1,10 @@
 ---
 layout: page
-title: ROS1
-description: testing resources
+title: Schematic Capture
+description: testing resources try 2
 img: assets/img/12.jpg
-importance: 1
-category: ROS
+importance: 2
+category: Electronics
 date: 2022-01-04
 ---
 

@@ -1,10 +1,10 @@
 ---
 layout: header_page
-title: projects
+title: Projects
 permalink: /projects/
 description: "all of our projects: past, present, future"
 nav: true
-display_categories: [work, fun, past, present]
+display_categories: [present, past]
 horizontal: false
 importance: 1
 ---

@@ -1,10 +1,10 @@
 ---
 layout: page
-title: ROS1
+title: Printed Circuit Boards
 description: testing resources
 img: assets/img/12.jpg
 importance: 1
-category: ROS
+category: Electronics
 date: 2022-01-04
 ---
 

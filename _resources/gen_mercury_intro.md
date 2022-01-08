@@ -1,10 +1,10 @@
 ---
 layout: page
-title: ROS1
-description: testing resources
-img: assets/img/12.jpg
+title: Intro to Robotics and Autonomous Systems
+description: blah blah blah
+img: 
 importance: 1
-category: ROS
+category: General
 date: 2022-01-04
 ---
 

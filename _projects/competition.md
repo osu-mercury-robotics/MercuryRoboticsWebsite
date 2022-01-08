@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Competition
-description: a project with a background image
+description: Previously, Mercury hosted an interstate robotics competition.
 img: 
 importance: 1
 category: past

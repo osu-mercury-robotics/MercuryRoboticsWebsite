@@ -2,7 +2,7 @@
 layout: page
 title: Introduction to the Robot Operating System (ROS)
 description: Beginner intro to ROS's structure, nomenclature, installation, and usage.
-img: assets/img/12.jpg
+img: 
 importance: 1
 category: ROS
 date: 2022-01-04

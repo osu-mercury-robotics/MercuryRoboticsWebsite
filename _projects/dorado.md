@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Dorado
-description: a project with no image
+title: DORADO
+description: Device for Open-water Research with Aerial Docking Operations. Autonomous pontoon for detecting algal blooms in lakes with quadcopter-carrying capabilities.
 img:
 importance: 4
 category: present

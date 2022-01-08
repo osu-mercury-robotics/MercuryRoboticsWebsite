@@ -1,10 +1,10 @@
 ---
 layout: header_page
-title: resources
+title: Resources
 permalink: /resources/
 description: a collection of various technical resources
 nav: true
-display_categories: [ROS, EDA]
+display_categories: [General, Electromechanical, Mechanical, Electronics, Programming, ROS]
 importance: 2
 ---
 
