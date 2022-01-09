@@ -404,6 +404,34 @@ footer.sticky-bottom {
 
 }
 
+.selectpicker {
+  .option {
+    color: var(--global-card-bg-color) !important;
+    background: var(--global-card-bg-color) !important;
+  }
+}
+
+.btn-light.dropdown-toggle {
+  background-color: var(--global-card-bg-color) !important;
+  border: 1px solid var(--global-card-bg-color);
+  &:hover {
+    background-color: var(--global-card-bg-color) !important;
+    border: 1px solid var(--global-theme-color);
+  }
+  
+}
+
+// .bootstrap-select {
+//   width: 50% !important;
+//   background-color: var(--global-card-bg-color) !important;
+//   color: var(--global-card-bg-color) !important;
+// }
+
+// .bootstrap-select.btn-group .dropdown-menu li a:hover {
+//   background: var(--global-card-bg-color) !important;
+//   color: var(--global-card-bg-color) !important;
+// }
+
 // Publications
 
 .publications {

@@ -4,6 +4,8 @@ layout: parse
 <!DOCTYPE html>
 <html lang="{{ site.lang }}">
 
+  {% include scripts/jquery.html %}
+
   <!-- Head -->
   <head>
   {%- if page.redirect -%}
@@ -27,7 +29,6 @@ layout: parse
     {%- include footer.html %}
   </body>
 
-  {% include scripts/jquery.html %}
   {% include scripts/bootstrap.html %}
   {% include scripts/mansory.html %}
   {% include scripts/misc.html %}

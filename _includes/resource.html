@@ -3,7 +3,7 @@
 {% assign tags = resource.tags | join: "" %}
 {% assign categories = resource.categories | join: "" %}
 
-<li class="card hoverable">
+<li class="card hoverable" id="{{resource.title}}">
     
     <h3>
         <a class="post-title stretched-link" href="{{ resource.url | prepend: site.baseurl }}">{{ resource.title }}</a>
