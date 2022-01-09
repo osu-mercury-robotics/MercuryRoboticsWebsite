@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Introduction to the Robot Operating System (ROS)
-description: Beginner intro to ROS's structure, nomenclature, installation, and usage.
+title: LaTeX Documentation
+description: testing resources
 img: 
-importance: 1
-category: ROS
-tags: [autonomy, ROS, navigation, programming]
+importance: 10
+category: General
 date: 2022-01-04
 ---
+
 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.

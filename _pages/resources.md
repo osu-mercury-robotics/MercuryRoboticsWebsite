@@ -2,30 +2,27 @@
 layout: header_page
 title: Resources
 permalink: /resources/
-description: a collection of various technical resources
+description: A collection of various technical resources
 nav: true
 display_categories: [General, Electromechanical, Mechanical, Electronics, Programming, ROS, Website]
 importance: 2
 testVar: hello
 ---
 <script>
-
+// Logic behind search functionality
 $(document).ready(function() {
 
   $("#search_bar").on("keyup", function() {
     var value = $(this).val().toLowerCase();
-    // Find all elements of class "container"
-    // If the element's ID does not contain the value string, hide it.
-
+    // For each card, check if any of its innerHTML contains the input string (includes title, description, tags, categories)
     $(".card").each(function() {
       var r = $(this).text().toLowerCase().indexOf(value) > -1;
-      console.log(r);
-      
-      if(r) {
+      if(r) { //If a card is becoming visible, ensure its parent is visible
         $(this).closest(".card-parent").toggle(true);
       }
       $(this).toggle(r);
     });
+
     $(".card-parent").each(function() {
       $(this).toggle($(this).find(".card:visible").length > 0);
     });
@@ -34,13 +31,11 @@ $(document).ready(function() {
     });
   });
 });
-
-
 </script>
 
 
 <div style="padding-left: 15px; padding-right: 15px;">
-  <input class="form-control" id="search_bar" type="text" placeholder="Search">
+  <input class="form-control searchbar shadow-sm" id="search_bar" type="text" placeholder="Search title, description, category, keyword">
 </div>
 
 <!-- pages/resources.md -->

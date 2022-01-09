@@ -262,11 +262,26 @@ footer.sticky-bottom {
 
 
 // Blog
-
+.searchbar {
+  margin-top: 2rem;
+  background-color: var(--global-card-bg-color) !important;
+  color: var(--global-text-color) !important;
+  border-color: var(--global-divider-color);
+  &:focus {
+    border-color: var(--global-theme-color);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 4px var(--global-theme-color) !important;
+    outline: 0 none;
+  }
+  &:hover {
+    border-color: var(--global-theme-color);
+  }
+}
 .header-bar {
   text-align: center;
   padding-top: .5rem;
   padding-bottom: .5rem;
+  padding-right: .5rem;
+  padding-left: .5rem;
   h1 {
     color: var(--global-theme-color);
     font-size: 5rem;

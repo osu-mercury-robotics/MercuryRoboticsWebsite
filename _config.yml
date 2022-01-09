@@ -110,6 +110,10 @@ collections:
   resources:
     output: true
     permalink: /resources/:path/
+  officers:
+    people: true
+    output: true
+    permalink: /officers/:path/
 
 news_limit: 5
 
