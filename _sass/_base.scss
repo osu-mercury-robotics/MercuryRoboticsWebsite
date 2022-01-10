@@ -259,6 +259,42 @@ footer.sticky-bottom {
   padding-bottom: 40px;
   font-size: 0.9rem;
 }
+.officers-page {
+  h2.category {
+    color: var(--global-divider-color);
+    border-bottom: 3px solid var(--global-divider-color);
+    padding-top: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: right;
+  }
+  .officer-post {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 30px;
+    background-color: var(--global-card-bg-color);
+  }
+  .officer-headshot {
+    border-radius: 50%;
+    border: 1px solid var(--global-theme-color);
+    margin: 10px auto;
+  }
+  
+  .officer-name {
+    font-weight: bold;
+  }
+  
+  .officer-position {
+    font-weight: 400;
+    color: var(--global-theme-color);
+  }
+  
+  .officer-info {
+    font-weight: 400;
+    color: var(--global-text-color);
+    margin: 5px 0;
+  }
+}
 
 
 // Blog

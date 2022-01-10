@@ -1,9 +1,10 @@
 ---
 name: Kelly Lewis
-position: President
+position: Treasurer
 major: Biosystems and Agricultural Engineering
 email: kelly.lewis@okstate.edu
-img: assets/officers/klewis.jpg
+img: /assets/img/officers/klewis.jpg
 importance: 3
 ---
-Do we need anything here?
+<!-- Description of the positions role and responsibilities -->
+The treasurer ...

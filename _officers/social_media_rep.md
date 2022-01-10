@@ -6,4 +6,5 @@ email:
 img: 
 importance: 8
 ---
-Do we need anything here?
+<!-- Description of the positions role and responsibilities -->
+The social media representative ...
