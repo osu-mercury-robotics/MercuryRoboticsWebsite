@@ -7,4 +7,4 @@ img: /assets/img/officers/cthornton.jpg
 importance: 1
 ---
 <!-- Description of the positions role and responsibilities -->
-The president ...
+The president shall organize meetings, coordinate directly with the group advisor, and assign tasks to individual officers.

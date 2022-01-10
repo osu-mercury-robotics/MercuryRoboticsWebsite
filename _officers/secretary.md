@@ -7,4 +7,4 @@ img: /assets/img/officers/kyounger.jpg
 importance: 4
 ---
 <!-- Description of the positions role and responsibilities -->
-The secretary ...
+The secretary shall document all meetings and file organizational reports with the Department of Campus Life.

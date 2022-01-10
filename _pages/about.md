@@ -1,8 +1,8 @@
 ---
 layout: about
-title: about
+title: Mercury Robotics
 permalink: /
-subtitle: 
+subtitle: Engineering design club at Oklahoma State University
 
 news: true  # includes a list of news items
 selected_papers: false

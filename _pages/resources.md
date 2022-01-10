@@ -35,7 +35,7 @@ $(document).ready(function() {
 
 
 <div style="padding-left: 15px; padding-right: 15px;">
-  <input class="form-control searchbar shadow-sm" id="search_bar" type="text" placeholder="Search title, description, category, keyword">
+  <input class="form-control searchbar shadow-sm" id="search_bar" type="text" placeholder="Search for resource">
 </div>
 
 <!-- pages/resources.md -->
