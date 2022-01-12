@@ -1,10 +1,11 @@
 ---
 layout: page
 title: Mercury Website Structure and Maintenance
-description: testing resources
+description: Resources to maintain and improve the Mercury website, alongside general web-development basics.
 img: 
 importance: 1
 category: Website
+tags: [webdev, html, css, javascript, jquery, domain, host]
 date: 2022-01-04
 ---
 

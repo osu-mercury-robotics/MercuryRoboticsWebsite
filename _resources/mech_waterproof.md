@@ -1,10 +1,11 @@
 ---
 layout: page
-title: Mercury Programming Style
-description: Explanation of the standardized programming style expected of production-ready Mercury software.
+title: Waterproofing Techniques
+description: Popular methods to effectively waterproof an enclosure.
 img: 
 importance: 1
-category: Programming
+category: Mechanical
+tags: [gasket, water, resistant, building, construction]
 date: 2022-01-04
 ---
 

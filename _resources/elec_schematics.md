@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Schematic Capture
-description: testing resources try 2
+description: Introduction to circuit schematic design and best practices.
 img: assets/img/12.jpg
 importance: 2
 category: Electronics

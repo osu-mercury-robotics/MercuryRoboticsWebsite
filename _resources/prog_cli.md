@@ -1,7 +1,7 @@
 ---
 layout: page
 title: The Command-Line Interface (CLI)
-description: blah blah
+description: Explanation of the purpose and usage of the Command-Line Interface for Windows and Linux. 
 img: 
 importance: 2
 category: Programming

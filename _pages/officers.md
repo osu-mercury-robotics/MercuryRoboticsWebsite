@@ -43,6 +43,7 @@ description: Our current officer team and their responsibilities
                         <h5 class="officer-position">{{officer.position}}</h5>
                         <p class="officer-info">{{officer.major}}</p>
                         <p class="officer-info">{{officer.email}}</p>
+                        <p class="officer-info">Projects: {{officer.projects}}</p>
                     </div>
                 </div>
             </div>

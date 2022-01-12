@@ -1,10 +1,11 @@
 ---
 layout: page
 title: Construction and Tools
-description: testing resources
+description: Introduction and instructions for usage of basic handtools in the consruction of robots.
 img: 
 importance: 1
 category: Mechanical
+tags: [building]
 date: 2022-01-04
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Printed Circuit Boards
-description: testing resources
+description: Introduction to the design and layout of Printed Circuit Boards (PCBs).
 img: assets/img/12.jpg
 importance: 1
 category: Electronics

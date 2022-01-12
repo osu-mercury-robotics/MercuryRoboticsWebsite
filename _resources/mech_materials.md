@@ -1,10 +1,11 @@
 ---
 layout: page
 title: Material Properties
-description: testing resources
+description: Overview of various materials, their properties, their construction, and recommendations for their usage.
 img:
 importance: 1
 category: Mechanical
+tags: [building, matsci]
 date: 2022-01-04
 ---
 

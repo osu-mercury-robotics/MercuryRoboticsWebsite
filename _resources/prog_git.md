@@ -1,13 +1,29 @@
 ---
 layout: page
-title: Mercury Programming Style
-description: Explanation of the standardized programming style expected of production-ready Mercury software.
+title: Git Version Control
+description: An introduction to the purpose and usage of Git for software version control
 img: 
 importance: 1
 category: Programming
+tags: [code, beginner, github]
 date: 2022-01-04
 ---
 
+    ---
+    git pull origin <branch-name>
+    ---
+
+    ---
+    git add <files-to-add>
+    ---
+
+    ---
+    git commit -m "<commit-message>"
+    ---
+
+    ---
+    git push origin <branch-name>
+    ---
 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
