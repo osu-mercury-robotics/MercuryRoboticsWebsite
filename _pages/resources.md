@@ -6,7 +6,6 @@ description: A collection of various technical resources
 nav: true
 display_categories: [General, Electromechanical, Mechanical, Electronics, Programming, ROS, Website]
 importance: 2
-testVar: hello
 ---
 <script>
 // Logic behind search functionality
