@@ -34,8 +34,8 @@ $(document).ready(function() {
 </script>
 
 
-<div style="padding-left: 15px; padding-right: 15px;">
-  <input class="form-control searchbar shadow-sm" id="search_bar" type="text" placeholder="Search for resource">
+<div style="padding-left: 15px; padding-right: 15px;" tabindex="0">
+  <input class="form-control searchbar shadow-sm" id="search_bar" type="text" placeholder="Search for resource" tabindex="1">
 </div>
 
 <!-- pages/resources.md -->
