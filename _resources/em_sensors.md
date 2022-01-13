@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Sensors
-description: blah blah blah
+description: Overview of commonly used internal and external sensors in robotics, mechatronics, control, and autonomous systems.
 img: 
 importance: 2
 category: Electromechanical

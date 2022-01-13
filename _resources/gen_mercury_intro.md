@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Intro to Robotics and Autonomous Systems
-description: blah blah blah
+description: What do robots do and how are they built
 img: 
 importance: 1
 category: General

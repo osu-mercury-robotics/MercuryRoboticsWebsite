@@ -1,6 +1,6 @@
 ---
 layout: header_page
-title: Resources
+title: Robot Wiki
 permalink: /resources/
 description: A collection of various technical resources
 nav: true

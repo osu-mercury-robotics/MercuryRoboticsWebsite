@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 3D Printing
-description: testing resources
+description: Tips to effectively design for and use a 3D printer
 img: 
 importance: 1
 category: Mechanical

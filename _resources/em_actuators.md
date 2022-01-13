@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Actuators
-description: blah blah
+description: Overview of common actuators such as motors (DC, AC, stepper, servo), electromagnets, pneumatics, and more.
 img: 
 importance: 1
 category: Electromechanical

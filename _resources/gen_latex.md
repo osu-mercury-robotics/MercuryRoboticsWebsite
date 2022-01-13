@@ -1,7 +1,7 @@
 ---
 layout: page
 title: LaTeX Documentation
-description: testing resources
+description: Intro to LaTeX, a software to ensure consistent and high-quality documentation.
 img: 
 importance: 10
 category: General

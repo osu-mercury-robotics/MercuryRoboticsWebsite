@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Composite Materials
-description: testing resources
+description: Overview of composite material construction techniques and recommendations
 img: 
 importance: 1
 category: Mechanical
