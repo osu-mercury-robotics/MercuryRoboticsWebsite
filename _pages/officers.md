@@ -36,7 +36,7 @@ description: Our current officer team and their responsibilities
             <div class="container card officer-post">
                 <div class="row">
                     <div class="col-sm-3 my-auto">
-                        <img src="{{site.baseurl}}/{{officer.img}}" class="img-fluid officer-headshot shadow-lg " alt="Responsive image">
+                        <img src="{{officer.img}}" class="img-fluid officer-headshot shadow-lg " alt="Responsive image">
                     </div>
                     <div class="col-sm-9 my-auto">
                         <h4 class="officer-name">{{officer.name}}</h4>
