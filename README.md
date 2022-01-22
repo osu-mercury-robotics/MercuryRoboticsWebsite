@@ -1,5 +1,5 @@
 # osu-mercury-robotics.github.io
 
-Repository for Mercury Robotics' website - [check it out here](mercuryrobots.com). The site hosts helpful information for both members and non-members, including project summaries and a technical resources.
+Repository for Mercury Robotics' website - [check it out here](https://www.mercuryrobots.com). The site hosts helpful information for both members and non-members, including project summaries and a technical resources.
 
 Built using Jekyll and a heavily modified [al-folio](https://github.com/alshedivat/al-folio) theme.
