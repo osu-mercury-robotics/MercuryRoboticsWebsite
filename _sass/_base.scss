@@ -253,6 +253,13 @@ footer.fixed-bottom {
   }
 }
 
+article.test {
+  h2 {
+    font-weight: bold;
+    border-bottom: 3px solid var(--global-divider-color);
+  }
+}
+
 footer.sticky-bottom {
   border-top: 1px solid var(--global-divider-color);
   padding-top: 40px;
