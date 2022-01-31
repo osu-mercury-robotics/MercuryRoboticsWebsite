@@ -133,6 +133,7 @@ High frequency circuits are complicated but here are some resources.
 Below are a few components and some of their nonidealities.
 
 #### Capacitor
+
 * [Capacitor Properties](https://www.electronics-notes.com/articles/electronic_components/capacitors/specifications-parameters.php)
 * [Capacitor Type](https://www.murata.com/en-us/products/capacitor/polymer/library/basic/comparison) Matters!
   * Datasheets will sometimes recommend what type of capacitor to use.  
@@ -146,8 +147,9 @@ Below are a few components and some of their nonidealities.
 * Self-Resonating Frequency
   * You want the operating frequency to be much less than the self-resonating frequency.
   * Datasheets will state the operating frequency range.
-  * 
+
 #### Inductor
+
 * [Inductor Properties](https://components101.com/articles/how-to-check-for-saturation-current-core-loss-and-other-parameters-for-selecting-an-inductor)
 * DCR
   * Direct-Current Resistance
