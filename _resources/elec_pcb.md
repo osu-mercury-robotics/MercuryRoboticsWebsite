@@ -37,7 +37,7 @@ We recommend you go through the whole PCB design process with this playlist. Fol
 ### Simulation
 Simulation is essential and highly recommended. You will certainly find flaws in your design. Simulations won't guarantee your PCB will work.
 
-Unfortantantly, KiCad and EasyEDA's simulation tools are limited. We have had success with simulations in Capture PSpice and Multisim. PSpice and Multisim are free for OKSTATE students at the [software distribution website](https://it.okstate.edu/services/software-distribution/index.html).
+Unfortantantly, KiCad and EasyEDA's simulation tools are limited. We have had success with simulations in Capture PSpice and Multisim. PSpice and Multisim are free for OKSTATE students at the [software distribution website](https://it.okstate.edu/services/software-distribution/index.html). A free alternative is [LTSpice](https://www.analog.com/en/design-center/design-tools-and-calculators/ltspice-simulator.html). It has most of the same functions as PSpice, but is lighter weight. It does not integrate directly with PCB design tools.
 
 If you happen to be designing a DC/DC or AC/DC converter PCB, check out Texas Instrument's [WEBENCH](https://webench.ti.com/power-designer/). It will help you select components and provides simulation tools.
 
@@ -46,7 +46,7 @@ Again, we recommend you follow a tutorial playlist. It is extremely helpful to g
 
 Unless your circuit is incredibly simple, you should use a four-layer PCB. They don't cost much more, they create more ways to connect components, and you can use power/ground planes. 
 
-Make sure your PCB manufacturer can create your PCB. Traces can't be too close, traces can't be too thin, etc. You can view [JLCPCB's rules](https://jlcpcb.com/capabilities/Capabilities). You can update your PCB software's rules so it will tell you when you are violating a rule.
+Make sure your PCB manufacturer can create your PCB. Traces can't be too close, traces can't be too thin, etc. You can view [JLCPCB's rules](https://jlcpcb.com/capabilities/Capabilities). You can update your PCB software's design rules so it will tell you when you are violating a rule.
 
 #### Advice
 * Don't worry about how things look at first. Just move components around to their general location.
@@ -56,6 +56,15 @@ Make sure your PCB manufacturer can create your PCB. Traces can't be too close, 
 * Keep sensitive components and traces away from noisy components. Keep sensitive analog traces short.
 * Use a grounding plane. They make it easy to connect all your grounds and they help to reduce EMI. 
 * Leave some space for vias and traces. Give your components some breathing room.
+
+### PCB Layers
+PCBs are constructed of several layers of fiberglass (or alternative) and copper sandwiched together. These are some of the most commonly referenced layers:
+
+* Top Copper - copper traces and planes on the top side of the board.
+* Bottom copper - same as top copper, but for the bottomside of the board.
+* Inner copper - interior layers of traces or pours. Cannot include components, but useful for better routing.
+* Silkscreen - Text or drawings placed above copper. Usually parts references e.g. C9, R4, U1. Useful if hand soldering, debugging, or additional information is necessary for usage.
+* Solder mask - covers traces and vias to avoid accidental short circuiting. Does not cover pads where outside connections need to be made.
 
 ### PCB Finalization
 * Reroute your traces and make them look good, but also consider crosstalk, EMI, and trace resistance.
@@ -80,7 +89,7 @@ It's important to spend some time imagining how people will interact with your b
 ## How JLCPCB and EasyEDA Work
 EasyEDA connects to JLCPCB services, so you can see what parts are available from JLCPCB. Additionally, it has the component's datasheet embedded. 
 
-JLCPCB provides two important services. PCB manufacturing and component assembly.
+JLCPCB provides two important services: PCB manufacturing and component assembly.
 
 ### PCB Manufacturing
 JLCPCB can manufacture your PCB. They will make a minimum of 5 boards. You can just order these boards and solder all your components yourself. This is easy with through-hole components, and hard (but doable) with surface mount components. Of course, the smaller the component, the harder it is to solder. The more components you have, the more opportunities for error. You can also use JLCPCB's component assembly service.
@@ -102,19 +111,20 @@ There are a few methods to help decrease thermal resistance.
   * You can place a large copper area directly under your component to give more area for the heat to spread.
 * Heat Sinks
   * Some ICs have a heat sink you can add to remove more heat.
-  * You can also mount heat sinks to PCB boards.
+  * You can also mount heat sinks to the PCB itself.
   * There are even heat sinks for surface mount components.
 * Thermal Redirection
   * You can use vias to channel heat to the other side of the PCB.
   * The other side would then have another large copper area.
   * Again, this creates more surface area for the heat to be removed.
 * Forced Convection
+  * Consider the operating environment. PCBs can be cooled with exterior fans if necessary.
 
 ### High Frequency
-An oversimplification of fields and waves: electrical charges produce electric fields and current produces magnetic fields. Changes in magnetic fields induce electric fields and changes in electric fields induce magnetic fields. High-frequency signals have sharp changes that couple (interfere) with nearby conductors. This coupling creates induced voltages and currents which can interfere with PCB performance. 
+An oversimplification of electromagnetic fields and waves: electrical charges produce electric fields and current produces magnetic fields. Changes in magnetic fields induce electric fields and changes in electric fields induce magnetic fields. High-frequency signals have sharp changes that couple (interfere) with nearby conductors. This coupling creates induced voltages and currents which can interfere with PCB performance. 
 
 High frequency circuits are complicated but here are some resources.
-* ECEN3613 and ECEN3623 courses
+* Electromagnetism courses (ECEN3613 and ECEN3623 at OSU)
 * [Transmission Theory](https://deltauniv.edu.eg/new/engineering/wp-content/uploads/chap.3.pdf)
 * [High Frequcy PCBs](https://youtu.be/bVdwu1IoX4k)
 * [JLCPCB Impedance Calculator](https://cart.jlcpcb.com/impedanceCalculation)
@@ -136,6 +146,7 @@ Below are a few components and some of their nonidealities.
 * Self-Resonating Frequency
   * You want the operating frequency to be much less than the self-resonating frequency.
   * Datasheets will state the operating frequency range.
+  * 
 #### Inductor
 * [Inductor Properties](https://components101.com/articles/how-to-check-for-saturation-current-core-loss-and-other-parameters-for-selecting-an-inductor)
 * DCR
