@@ -253,10 +253,18 @@ footer.fixed-bottom {
   }
 }
 
-article.test {
+article.post {
   h2 {
     font-weight: bold;
     border-bottom: 3px solid var(--global-divider-color);
+  }
+}
+
+article.post {
+  figcaption {
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
   }
 }
 
