@@ -10,7 +10,7 @@ tags: [building, composite, fiber, fiberglass, carbonfiber, matrix, resin, epoxy
 ---
 
 <div class="row mt-3 mb-3">
-    <img src = "{{site.baseurl}}/assets/img/resources/mech_composites/composite_intro.PNG" class="m-auto img-fluid rounded z-depth-1" alt="Responsive image" title="Composite thing">
+    <img src = "{{site.baseurl}}/assets/img/resources/mech_composites/composite_intro.png" class="m-auto img-fluid rounded z-depth-1" alt="Responsive image" title="Composite thing">
 </div>
 
 ## Introduction
@@ -58,11 +58,11 @@ When selecting a composite material, it is important to consider what fiber and 
 
 <div class="row mt-3 mb-3">
     <div class="col-sm-6">
-        <img src = "{{site.baseurl}}/assets/img/resources/mech_composites/carbon_twill.PNG" class="img-fluid rounded z-depth-1 mx-auto d-block" alt="Responsive image" title="Carbon Fiber with Twill Weave">
+        <img src = "{{site.baseurl}}/assets/img/resources/mech_composites/carbon_twill.png" class="img-fluid rounded z-depth-1 mx-auto d-block" alt="Responsive image" title="Carbon Fiber with Twill Weave">
     <figcaption>Carbon Fiber with Twill Weave</figcaption>
     </div>
     <div class="col-sm-6">
-        <img src = "{{site.baseurl}}/assets/img/resources/mech_composites/fiberglass_square.PNG" class="img-fluid rounded z-depth-1 mx-auto d-block" alt="Responsive image" title="Fiberglass with Square W">
+        <img src = "{{site.baseurl}}/assets/img/resources/mech_composites/fiberglass_square.png" class="img-fluid rounded z-depth-1 mx-auto d-block" alt="Responsive image" title="Fiberglass with Square W">
         <figcaption>Fiberglass with Square Weave</figcaption>
     </div>
 </div>
@@ -82,7 +82,7 @@ Composite materials have to be built against an existing structure. This takes t
 Fiber laid on either side of mold. Resin is "painted" on with brushes or rollers. Rollers are preferable, because they can achieve a more even coat and are faster. This method is cheap but takes the longest and requires the most labor. Air bubbles may form inside resin during the process - spraying them with alcohol can remove them.
 
 <div class="row mt-3 mb-3">
-    <img src = "{{site.baseurl}}/assets/img/resources/mech_composites/layup.PNG" class="img-fluid rounded z-depth-1 mx-auto d-block" alt="Responsive image" title="Resin Lay-up Process">
+    <img src = "{{site.baseurl}}/assets/img/resources/mech_composites/layup.png" class="img-fluid rounded z-depth-1 mx-auto d-block" alt="Responsive image" title="Resin Lay-up Process">
     <figcaption>Resin Lay-up Process</figcaption>
 </div>
 
@@ -90,7 +90,7 @@ Fiber laid on either side of mold. Resin is "painted" on with brushes or rollers
 Fiber laid on the outside of the mold (plug in this case). Resin applied to the fiber by brushing/rolling or injection. Fiber, resin, and mold are wrapped by a plastic bag, which is then vacuum-sucked to remove excess resin and pull fiber tight to mold. Helpfully, it removes airbubbles in resin which can be hard to remove with manual lay-up.
 
 <div class="row mt-3 mb-3">
-    <img src = "{{site.baseurl}}/assets/img/resources/mech_composites/vacuum_bag.PNG" class="img-fluid rounded z-depth-1 mx-auto d-block" alt="Responsive image" title="Vacuum Bagging Process">
+    <img src = "{{site.baseurl}}/assets/img/resources/mech_composites/vacuum_bag.png" class="img-fluid rounded z-depth-1 mx-auto d-block" alt="Responsive image" title="Vacuum Bagging Process">
     <figcaption>Vacuum Bagging Process</figcaption>
 </div>
 
@@ -98,7 +98,7 @@ Fiber laid on the outside of the mold (plug in this case). Resin applied to the 
 A type of vacuum bagging. Fiber goes on inside or outside of the mold. Wrap fiber and mold in vacuum bag. Resin is injected into the bag with a pump, where it will spread throughout the fiber layers. Apply vacuum to remove resin - allowing for precise selection of fiber/resin ratio through the removal of unwanted resin. Leads to thinner layers in the composite. Most expensive technique, but highest quality outcome.
 
 <div class="row mt-3 mb-3">
-    <img src = "{{site.baseurl}}/assets/img/resources/mech_composites/resin_infusion.PNG" class="img-fluid rounded z-depth-1 mx-auto d-block" alt="Responsive image" title="Resin Infusion Process">
+    <img src = "{{site.baseurl}}/assets/img/resources/mech_composites/resin_infusion.png" class="img-fluid rounded z-depth-1 mx-auto d-block" alt="Responsive image" title="Resin Infusion Process">
     <figcaption>Resin Infusion Process</figcaption>
 </div>
 
