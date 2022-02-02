@@ -7,7 +7,10 @@
    id="svg3007"
    version="1.1"
    inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
-   sodipodi:docname="merc_bot.svg"
+   sodipodi:docname="merc_bot_light.svg"
+   inkscape:export-filename="C:\Users\ctvmd\directories\projects\al-folio\assets\img\merc_bot_light.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -34,10 +37,10 @@
      pagecolor="#ffffff"
      bordercolor="#666666"
      borderopacity="1.0"
-     inkscape:pageopacity="0.0"
+     inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.979899"
-     inkscape:cx="213.64726"
+     inkscape:cx="57.578695"
      inkscape:cy="194.7069"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -58,7 +61,6 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -70,7 +72,10 @@
     <g
        transform="translate(27.711191,-520.0348)"
        id="g3938-3"
-       style="fill:#000000;fill-opacity:1">
+       style="fill:#000000;fill-opacity:1"
+       inkscape:export-filename="C:\Users\ctvmd\directories\projects\al-folio\assets\img\g3938-4.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
       <g
          id="g3865-7"
          style="fill:#000000;fill-opacity:1">
@@ -141,7 +146,10 @@
          style="font-style:oblique;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:35px;line-height:1.25;font-family:Verdana;-inkscape-font-specification:'Verdana Bold Oblique';fill:#000000;fill-opacity:1">REMOTE ROBOT CHALLENGE</tspan></text> -->
     <g
        id="g3862-81"
-       transform="translate(19.13976,-350.03479)">
+       transform="translate(19.13976,-350.03479)"
+       inkscape:export-filename="C:\Users\ctvmd\directories\projects\al-folio\assets\img\g3938-4.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
       <path
          inkscape:export-ydpi="300"
          inkscape:export-xdpi="300"
