@@ -3,12 +3,13 @@ layout: header_page
 title: Contact Us
 nav: true
 permalink: /contact/
-description: 
+description: Use our official email, request to join on CampusLink, or communicate with an officer
 importance: 5
 ---
 
-**Primary Contact** (insert name here)
 
-**Email** (insert email here)
+**Primary Contact**
 
-**CampusLink** (insert campus link here)
+*mercury.robotics@gmail.com*
+
+[Campuslink Page](https://campuslink.okstate.edu/organization/mercuryrobotics)

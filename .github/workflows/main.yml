@@ -1,13 +1,18 @@
-name: Add PR to project
+name: UpdateProjectJSON
 on:
   pull_request:
     types:
       - ready_for_review
+  schedule:
+    - cron: '47 * * * *'
+  workflow_dispatch:
+
 jobs:
-  track_pr:
+  UpdateProjectJSON:
     runs-on: ubuntu-latest
     steps:
       - name: Get project data
+      - uses: actions/checkout@v2
         env:
           GITHUB_TOKEN: ${{ secrets.TOKEN }}
           ORGANIZATION: osu-mercury-robotics
@@ -17,73 +22,23 @@ jobs:
             query($org: String!, $number: Int!) {
               organization(login: $org){
                 projectNext(number: $number) {
-                  id
-                  fields(first:20) {
+                  items(first: 100) {
                     nodes {
+                      title
                       id
-                      name
-                      settings
+                      fieldValues(first: 20) {
+                        nodes {
+                          value
+                          projectField {name}
+                        }
+                      }
                     }
                   }
                 }
               }
-            }' -f org=$ORGANIZATION -F number=$PROJECT_NUMBER > project_data.json
-
-          echo 'PROJECT_ID='$(jq '.data.organization.projectNext.id' project_data.json) >> $GITHUB_ENV
-          echo 'DATE_FIELD_ID='$(jq '.data.organization.projectNext.fields.nodes[] | select(.name== "Date posted") | .id' project_data.json) >> $GITHUB_ENV
-          echo 'STATUS_FIELD_ID='$(jq '.data.organization.projectNext.fields.nodes[] | select(.name== "Status") | .id' project_data.json) >> $GITHUB_ENV
-          echo 'TODO_OPTION_ID='$(jq '.data.organization.projectNext.fields.nodes[] | select(.name== "Status") |.settings | fromjson.options[] | select(.name=="Todo") |.id' project_data.json) >> $GITHUB_ENV
-
-      - name: Add PR to project
-        env:
-          GITHUB_TOKEN: ${{ secrets.TOKEN }}
-          PR_ID: ${{ github.event.pull_request.node_id }}
-        run: |
-          item_id="$( gh api graphql -f query='
-            mutation($project:ID!, $pr:ID!) {
-              addProjectNextItem(input: {projectId: $project, contentId: $pr}) {
-                projectNextItem {
-                  id
-                }
-              }
-            }' -f project=$PROJECT_ID -f pr=$PR_ID --jq '.data.addProjectNextItem.projectNextItem.id')"
-          
-          echo 'ITEM_ID='$item_id >> $GITHUB_ENV
-
-      - name: Get date
-        run: echo "DATE=$(date +"%Y-%m-%d")" >> $GITHUB_ENV
-
-      - name: Set fields
-        env:
-          GITHUB_TOKEN: ${{ secrets.TOKEN }}
-        run: |
-          gh api graphql -f query='
-            mutation (
-              $project: ID!
-              $item: ID!
-              $status_field: ID!
-              $status_value: String!
-              $date_field: ID!
-              $date_value: String!
-            ) {
-              set_status: updateProjectNextItemField(input: {
-                projectId: $project
-                itemId: $item
-                fieldId: $status_field
-                value: $status_value
-              }) {
-                projectNextItem {
-                  id
-                  }
-              }
-              set_date_posted: updateProjectNextItemField(input: {
-                projectId: $project
-                itemId: $item
-                fieldId: $date_field
-                value: $date_value
-              }) {
-                projectNextItem {
-                  id
-                }
-              }
-            }' -f project=$PROJECT_ID -f item=$ITEM_ID -f status_field=$STATUS_FIELD_ID -f status_value=${{ env.TODO_OPTION_ID }} -f date_field=$DATE_FIELD_ID -f date_value=$DATE --silent
+            }' -f org=$ORGANIZATION -F number=$PROJECT_NUMBER > ./assets/project_data.json
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add .
+          git commit -m "Updated JSON"
+          git push

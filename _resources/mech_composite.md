@@ -26,9 +26,12 @@ Normally when talking about composite materials, it is referring to those constr
 ### Fiber
 The fiber is a cloth weave that provides the strength and stiffness. It is often made of:
 
+<!-- Add link to website -->
+
 * **Polyester** - General purpose, varying strengths available, customizable – easily altered at request for mixing with different fibers and different weaves, cheap.
 * **Carbon Fiber** - Very strong, many weaves available, more expensive.
 * **Fiberglass** - Very light, easy to find, easy to manufacture, cheap.
+* **Kevlar** - Very robust and strong, high abrasion resistance.
 
 <div class="col-sm-6 mx-auto">
         <img src = "{{site.baseurl}}/assets/img/resources/mech_composites/kevlar_polyester.png" class="img-fluid rounded z-depth-1 mx-auto d-block" alt="Responsive image" title="Kevlar Polyester">
@@ -85,7 +88,7 @@ When selecting a composite material, it is important to consider what fiber and 
 When using composite materials, it is unlikely that you will be buying premade, though if that is the case, remember to check the ratio of fiber to resin. Roughly 30% fiber to 70% matrix (by weight) is ideal and what most composite strength estimates are based on. That being said, this ratio is difficult to achieve, and thin layers can be difficult to spread resin on, so expect to add more of your matrix. You’ll have to work quickly to avoid *kicking*, when the chemicals in the resin start to become too hot and sticky. When the product starts kicking (at the end of working time) you will no longer be able to add more layers or continue working. Also, avoid getting the matrix on anything you’re working with because it does not come off of cloth or other materials.
 
 ### Mold/Plug
-Composite materials have to be built against an existing structure, so creating your composite form will require you to make a mold or plug. This will reflect the final outcome shape - design and manufacture it accordingly If desired, a secondary mold or plug of higher quality material can be made using the original. They can be made of wood, foam, or silicone. If the structure is designed for fiber laid overtop it (like an extruded piece), it is called a plug. If it is designed for fiber to be laid inside of it (like a basin) it is called a mold. The side that touches the mold or plug will have a smooth finish, so when deciding whether to make a mold or plug, consider both the geometry and the exterior finish. For an improved finish, a release agent (eg wax or release spray) can be applied to the mold/plug before the manufacturing process.
+Composite materials have to be built against an existing structure, so creating your composite form will require you to make a mold or plug. This will reflect the final outcome shape - design and manufacture it accordingly. If desired, a secondary mold or plug of higher quality material can be made using the original. They can be made of wood, foam, or silicone. If the structure is designed for fiber laid overtop it (like an extruded piece), it is called a plug. If it is designed for fiber to be laid inside of it (like a basin) it is called a mold. The side that touches the mold or plug will have a smooth finish, so when deciding whether to make a mold or plug, consider both the geometry and the exterior finish. For an improved finish, a release agent (eg wax or release spray) can be applied to the mold/plug before the manufacturing process.
 
 [Easy Composite Mold-Making Tutorial](https://youtu.be/Cusncs4GaFg)
 
