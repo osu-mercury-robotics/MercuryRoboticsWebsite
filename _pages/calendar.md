@@ -46,12 +46,14 @@ divTag.id = "test";
 divTag.innerHTML="Testing here";
 document.getElementById("controls-list").appendChild(divTag);
 
+console.log("Fetching!");
+
 fetch("{{site.baseurl}}/assets/project_data.json")
 .then(response => {
     return response.json();
 })
 .then(data => {
-
+    console.log(data);
     var arr = data.data.node.items.nodes;
     for(i = 0; i < arr.length; i++) {
         console.log(arr[i].title);
