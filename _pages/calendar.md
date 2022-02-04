@@ -54,7 +54,7 @@ fetch("{{site.baseurl}}/assets/project_data.json")
 })
 .then(data => {
     console.log(data);
-    var arr = data.data.node.items.nodes;
+    var arr = data.data.organization.projectNext.items.nodes;
     for(i = 0; i < arr.length; i++) {
         console.log(arr[i].title);
         var fieldsArr = arr[i].fieldValues.nodes;
