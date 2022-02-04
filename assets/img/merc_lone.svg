@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="189.90868"
+   height="150.51274"
+   id="svg3007"
+   version="1.1"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="merc_lone.svg"
+   inkscape:export-filename="C:\Users\ctvmd\directories\projects\al-folio\assets\img\merc_guy.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs3009">
+    <linearGradient
+       id="linearGradient5249">
+      <stop
+         style="stop-color:#6c411c;stop-opacity:1;"
+         offset="0"
+         id="stop5251" />
+      <stop
+         style="stop-color:#ff9900;stop-opacity:1;"
+         offset="1"
+         id="stop5253" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#000000"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="145.20943"
+     inkscape:cy="147.22973"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="2560"
+     inkscape:window-height="1417"
+     inkscape:window-x="1072"
+     inkscape:window-y="472"
+     inkscape:window-maximized="1"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:pagecheckerboard="0">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2645"
+       originx="-11.111686"
+       originy="-47.477169" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata3012">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-267.35413,-53.633809)">
+    <!-- <text
+       xml:space="preserve"
+       style="font-style:oblique;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:Arial;-inkscape-font-specification:'Sans Oblique';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="90.130814"
+       y="740.81097"
+       id="text4475-4-4"
+       inkscape:export-filename="C:\Users\Wira\Documents\Repositories\wirarepo\mercury\logo-generic.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan4477-0-1"
+         x="90.130814"
+         y="740.81097"
+         style="font-style:oblique;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:35px;line-height:1.25;font-family:Verdana;-inkscape-font-specification:'Verdana Bold Oblique';fill:#000000;fill-opacity:1">REMOTE ROBOT CHALLENGE</tspan></text> -->
+    <g
+       id="g2790">
+      <path
+         inkscape:export-ydpi="300"
+         inkscape:export-xdpi="300"
+         inkscape:export-filename="C:\Users\Wira\Documents\Repositories\wirarepo\mercury\logo-generic.png"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.889615"
+         d="m 292.52032,149.96401 33.84303,-1.37112 c -4.97457,-24.11951 -7.15394,-40.27232 -15.79343,-67.699106 -7.88564,25.085066 -12.45658,48.884496 -18.0496,69.070226 z"
+         id="path3916-1-2-1"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccc" />
+      <path
+         inkscape:export-ydpi="300"
+         inkscape:export-xdpi="300"
+         inkscape:export-filename="C:\Users\Wira\Documents\Repositories\wirarepo\mercury\logo-generic.png"
+         style="fill:#ffffff;fill-opacity:1;stroke:none"
+         d="m 326.31373,68.629179 c 0,8.28172 -6.71684,14.99537 -15.00249,14.99537 -8.28564,0 -15.00248,-6.71365 -15.00248,-14.99537 0,-8.28172 6.71684,-14.99537 15.00248,-14.99537 8.28565,0 15.00249,6.71365 15.00249,14.99537 z"
+         id="path3920-8-4-9"
+         inkscape:connector-curvature="0" />
+      <rect
+         style="fill:#ffffff"
+         id="rect2069"
+         width="189.90868"
+         height="64.649765"
+         x="267.35413"
+         y="139.49678" />
+      <path
+         style="fill:#000000"
+         id="path2377"
+         sodipodi:type="arc"
+         sodipodi:cx="332.36282"
+         sodipodi:cy="173.09888"
+         sodipodi:rx="21.970818"
+         sodipodi:ry="21.970818"
+         sodipodi:start="0.39085252"
+         sodipodi:end="4.661373"
+         sodipodi:open="true"
+         sodipodi:arc-type="arc"
+         d="m 352.6767,181.46925 a 21.970818,21.970818 0 0 1 -25.6124,12.95197 21.970818,21.970818 0 0 1 -16.57055,-23.43429 21.970818,21.970818 0 0 1 20.7487,-19.83029" />
+      <path
+         style="fill:#000000"
+         id="path2377-2"
+         sodipodi:type="arc"
+         sodipodi:cx="387.36282"
+         sodipodi:cy="173.09888"
+         sodipodi:rx="21.970818"
+         sodipodi:ry="21.970818"
+         sodipodi:start="0.39085252"
+         sodipodi:end="4.661373"
+         sodipodi:open="true"
+         sodipodi:arc-type="arc"
+         d="m 407.6767,181.46925 a 21.970818,21.970818 0 0 1 -25.6124,12.95197 21.970818,21.970818 0 0 1 -16.57055,-23.43429 21.970818,21.970818 0 0 1 20.7487,-19.83029" />
+    </g>
+  </g>
+</svg>
