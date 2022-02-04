@@ -11,8 +11,10 @@ jobs:
   UpdateProjectJSON:
     runs-on: ubuntu-latest
     steps:
-      - name: Get project data
-      - uses: actions/checkout@v2
+      - name: Checkout repo
+        uses: actions/checkout@v2
+      
+      - name: Get new project data as JSON, push to repo
         env:
           GITHUB_TOKEN: ${{ secrets.TOKEN }}
           ORGANIZATION: osu-mercury-robotics
