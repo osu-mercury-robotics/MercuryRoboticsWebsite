@@ -15,7 +15,7 @@ footer_text: >
 keywords: engineering, mercury, robotics, robots, extracurricular, design, ROS, club, okstate, osu, oklahoma, state, university  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon:  # the emoji used as the favicon
+icon: "/assets/img/merc_bot_light.svg" # the emoji used as the favicon
 url: https://mercuryrobots.com # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
 last_updated: false # set to true if you want to display last updated in the footer

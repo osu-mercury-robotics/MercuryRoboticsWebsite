@@ -343,6 +343,40 @@ footer.sticky-bottom {
   padding-top: 3rem;
 }
 
+.task-list {
+  margin: 0;
+  margin-bottom: 40px;
+  padding: 0;
+  li {
+    border: 1px solid var(--global-card-bg-color);
+    list-style: none;
+    background-color: var(--global-card-bg-color);
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 3px;
+    &:hover {
+      border: 1px solid var(--global-theme-color);
+    }
+    a {
+      color: var(--global-text-color);
+      font-weight: 400;
+      text-decoration: none;
+      &:hover {
+        color: var(--global-theme-color);
+      }
+    }
+    h1 {
+      font-size: medium;
+      font-weight: 500;
+    }
+    span {
+      float: right;
+      margin-bottom: 5px;
+      ;
+    }
+  }
+}
+
 .post-list {
   margin: 0;
   margin-bottom: 40px;

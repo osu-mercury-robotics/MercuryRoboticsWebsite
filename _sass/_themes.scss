@@ -7,6 +7,7 @@
   --global-code-bg-color: #{$code-bg-color-light};
   --global-card-bg-color: #{$card-bg-color-light};
   --global-text-color: #{$black-color};
+  --global-text-color-opposite: #{$grey-color-light};
   --global-text-color-light: #{$grey-color};
   --global-theme-color: #{$cobalt-color};
   --global-hover-color: #{$cobalt-color-light};
@@ -31,6 +32,7 @@ html[data-theme='dark'] {
   --global-code-bg-color: #{$code-bg-color-dark};
   --global-card-bg-color: #{$card-bg-color-dark};
   --global-text-color: #{$grey-color-light};
+  --global-text-color-opposite: #{$black-color};
   --global-text-color-light: #{$grey-color-light};
   --global-theme-color: #{$green-color};
   --global-hover-color: #{$green-color-light};
