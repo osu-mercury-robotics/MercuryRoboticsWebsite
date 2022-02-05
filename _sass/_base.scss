@@ -343,6 +343,17 @@ footer.sticky-bottom {
   padding-top: 3rem;
 }
 
+.tasks {
+  h2.category {
+    color: var(--global-divider-color);
+    border-bottom: 3px solid var(--global-divider-color);
+    padding-top: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: right;
+  }
+}
+
 .task-list {
   margin: 0;
   margin-bottom: 40px;
@@ -354,9 +365,9 @@ footer.sticky-bottom {
     margin-bottom: 20px;
     padding: 10px;
     border-radius: 3px;
-    &:hover {
-      border: 1px solid var(--global-theme-color);
-    }
+    // &:hover {
+    //   border: 1px solid var(--global-theme-color);
+    // }
     a {
       color: var(--global-text-color);
       font-weight: 400;
@@ -368,11 +379,14 @@ footer.sticky-bottom {
     h1 {
       font-size: medium;
       font-weight: 500;
+      color: white;
     }
     span {
       float: right;
       margin-bottom: 5px;
-      ;
+      margin-left: 5px !important;
+      margin-right: 5px !important;
+      padding: 5px;
     }
   }
 }
@@ -529,6 +543,8 @@ footer.sticky-bottom {
 //   background: var(--global-card-bg-color) !important;
 //   color: var(--global-card-bg-color) !important;
 // }
+
+
 
 // Publications
 
