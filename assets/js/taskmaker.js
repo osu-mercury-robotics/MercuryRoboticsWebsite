@@ -28,7 +28,7 @@ class TaskItem {
         if (this.priority) clone.querySelector('#priority').innerHTML = this.priority;
         if (this.phase) clone.querySelector('#phase').innerHTML = this.phase;
         if (this.date) clone.querySelector('#date').innerHTML = this.date;
-
+        clone.querySelector('#team').innerHTML = this.team;
         
         var classList = clone.querySelector("#priority").classList;
         switch(this.priority) {

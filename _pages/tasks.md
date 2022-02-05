@@ -14,28 +14,17 @@ importance: 4
 <div class="tasks">
     {% assign num = number_of_elements %}
     <div class="container">
-        <div class="row">
-            <div class="col-sm-4">
-                <h2 class="task-header">Mechanical</h2>
-            </div>
-            <div class="col-sm-4">
-                <h2 class="task-header">Electrical</h2>
-            </div>
-            <div class="col-sm-4">
-                <h2 class="task-header">Controls</h2>
-            </div>
-        </div>
         <h2 class="sub-category">In Progress</h2>
         <div class="row">
             <div class="col-sm-4">
                 <ul class="task-list" id="Mechanical In Progress">
                 </ul>
             </div>
-            <div class="col-sm-4 border-left">
+            <div class="col-sm-4">
                 <ul class="task-list" id="Electrical In Progress">
                 </ul>
             </div>
-            <div class="col-sm-4 border-left">
+            <div class="col-sm-4">
                 <ul class="task-list" id="Controls In Progress">
                 </ul>
             </div>
@@ -47,12 +36,12 @@ importance: 4
                 <ul class="task-list" id="Mechanical Backlog">
                 </ul>
             </div>
-            <div class="col-sm-4 border-left">
+            <div class="col-sm-4">
                 <div class="category-line"></div>
                 <ul class="task-list" id="Electrical Backlog">
                 </ul>
             </div>
-            <div class="col-sm-4 border-left">
+            <div class="col-sm-4">
                 <div class="category-line"></div>
                 <ul class="task-list" id="Controls Backlog">
                 </ul>
@@ -64,11 +53,11 @@ importance: 4
                 <ul class="task-list" id="Mechanical Complete">
                 </ul>
             </div>
-            <div class="col-sm-4 border-left">
+            <div class="col-sm-4">
                 <ul class="task-list" id="Electrical Complete">
                 </ul>
             </div>
-            <div class="col-sm-4 border-left">
+            <div class="col-sm-4">
                 <ul class="task-list" id="Controls Complete">
                 </ul>
             </div>
@@ -80,7 +69,10 @@ importance: 4
 <template id="itemTemplate">
     <li class="task-list-item">
         <div class="row">
-            <h1 class="col-sm-8 my-auto" id="title"></h1>
+            <div class="col-sm-8">
+                <h1 id="title"></h1>
+                <h2 id="team" class="sticky-bottom"></h2>
+            </div>
             <div class="col-sm-4">
                 <span class="badge shadow-none bg-danger" style="color: var(--global-text-color-opposite) !important" id="priority"></span>
                 <span class="badge shadow-none bg-light" style="color: black !important;" id="phase"></span>
