@@ -4,7 +4,7 @@ title: Contact Us
 nav: true
 permalink: /contact/
 description: Use our official email, request to join on CampusLink, or communicate with an officer
-importance: 5
+importance: 6
 ---
 
 

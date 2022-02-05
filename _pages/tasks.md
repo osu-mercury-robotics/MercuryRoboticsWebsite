@@ -3,35 +3,73 @@ layout: header_page
 title: Task List
 nav: true
 permalink: /tasks/
-description:
+description: In progress, planned, and completed goals for our projects.
 importance: 4
 ---
 
-[Github project](https://github.com/orgs/osu-mercury-robotics/projects/1)
+[DORADO project](https://github.com/orgs/osu-mercury-robotics/projects/1)
 
 
 <!-- pages/tasks.md -->
 <div class="tasks">
-
     {% assign num = number_of_elements %}
     <div class="container">
         <div class="row">
             <div class="col-sm-4">
-                <h2 class="category">Mechanical</h2>
-                <ul class="task-list" id="Mechanical">
-
-                </ul>
+                <h2 class="task-header">Mechanical</h2>
             </div>
             <div class="col-sm-4">
-                <h2 class="category">Electrical</h2>
-                <ul class="task-list" id="Electrical">
-
-                </ul>
+                <h2 class="task-header">Electrical</h2>
             </div>
             <div class="col-sm-4">
-                <h2 class="category">Controls</h2>
-                <ul class="task-list" id="Controls">
-
+                <h2 class="task-header">Controls</h2>
+            </div>
+        </div>
+        <h2 class="sub-category">In Progress</h2>
+        <div class="row">
+            <div class="col-sm-4">
+                <ul class="task-list" id="Mechanical In Progress">
+                </ul>
+            </div>
+            <div class="col-sm-4 border-left">
+                <ul class="task-list" id="Electrical In Progress">
+                </ul>
+            </div>
+            <div class="col-sm-4 border-left">
+                <ul class="task-list" id="Controls In Progress">
+                </ul>
+            </div>
+        </div>
+        <h2 class="sub-category">Planned</h2>
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="category-line"></div>
+                <ul class="task-list" id="Mechanical Backlog">
+                </ul>
+            </div>
+            <div class="col-sm-4 border-left">
+                <div class="category-line"></div>
+                <ul class="task-list" id="Electrical Backlog">
+                </ul>
+            </div>
+            <div class="col-sm-4 border-left">
+                <div class="category-line"></div>
+                <ul class="task-list" id="Controls Backlog">
+                </ul>
+            </div>
+        </div>
+        <h2 class="sub-category">Completed</h2>
+        <div class="row">
+            <div class="col-sm-4">
+                <ul class="task-list" id="Mechanical Complete">
+                </ul>
+            </div>
+            <div class="col-sm-4 border-left">
+                <ul class="task-list" id="Electrical Complete">
+                </ul>
+            </div>
+            <div class="col-sm-4 border-left">
+                <ul class="task-list" id="Controls Complete">
                 </ul>
             </div>
         </div>
@@ -58,13 +96,13 @@ window.onload = async () => {
     const listItems = await ParseTaskJSON(document.querySelector('#itemTemplate'));
     for(item of listItems["Mechanical"]) {
         console.log(item);
-        document.getElementById("Mechanical").appendChild(item);
+        document.getElementById("Mechanical " + item.status).appendChild(item.buildListElement());
     }
     for(item of listItems["Electrical"]) {
-        document.getElementById("Electrical").appendChild(item);
+        document.getElementById("Electrical " + item.status).appendChild(item.buildListElement());
     }
     for(item of listItems["Controls"]) {
-        document.getElementById("Controls").appendChild(item);
+        document.getElementById("Controls " + item.status).appendChild(item.buildListElement());
     }
 }
 </script>

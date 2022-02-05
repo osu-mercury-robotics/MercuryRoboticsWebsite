@@ -343,6 +343,15 @@ footer.sticky-bottom {
   padding-top: 3rem;
 }
 
+h2.category {
+  color: var(--global-divider-color);
+  border-bottom: 3px solid var(--global-divider-color);
+  padding-top: 0.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  text-align: right;
+}
+
 .tasks {
   h2.category {
     color: var(--global-divider-color);
@@ -352,12 +361,28 @@ footer.sticky-bottom {
     margin-bottom: 1rem;
     text-align: right;
   }
+  h2.sub-category {
+    color: var(--global-divider-color);
+    border-bottom: 3px solid var(--global-divider-color);
+    margin-bottom: .5rem;
+    text-align: center;
+  }
+  h2.task-header {
+    color: var(--global-theme-color);
+    margin-bottom: .5rem;
+    text-align: center;
+    font-weight: 500;
+  }
+}
+.border-left {
+  border-left: 3px solid var(--global-divider-color) !important;
 }
 
 .task-list {
   margin: 0;
   margin-bottom: 40px;
-  padding: 0;
+  padding: 5px;
+
   li {
     border: 1px solid var(--global-card-bg-color);
     list-style: none;
@@ -513,7 +538,6 @@ footer.sticky-bottom {
     margin-bottom: 1rem;
     text-align: right;
   }
-
 }
 
 .selectpicker {

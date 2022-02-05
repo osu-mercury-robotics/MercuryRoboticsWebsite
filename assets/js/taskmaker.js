@@ -41,7 +41,7 @@ class TaskItem {
         var item = clone.querySelector('.task-list-item');
         switch(this.status) {
             case "Backlog":     item.style.backgroundColor = 'CornflowerBlue'; break;
-            case "In Progress": item.style.backgroundColor = 'DarkSlateGrey'; break;
+            case "In Progress": item.style.backgroundColor = 'Salmon'; break;
             case "Complete":    item.style.backgroundColor = 'SeaGreen'; break;
             default:            item.style.backgroundColor = 'CornflowerBlue'
         }
@@ -133,14 +133,14 @@ async function ParseTaskJSON(listItemTemplate) {
 
             item.setTemplate(listItemTemplate);
             if(teamDict[team] == "Mechanical") {
-                mechItems.push(item.buildListElement());
+                mechItems.push(item);
             } else if (teamDict[team] == "Electrical") {
-                elecItems.push(item.buildListElement());
+                elecItems.push(item);
             }
             else if(teamDict[team] == "Controls") {
-                controlItems.push(item.buildListElement());
+                controlItems.push(item);
             } else {
-                noTeamItems.push(item.buildListElement());
+                noTeamItems.push(item);
             }
         }
     }
