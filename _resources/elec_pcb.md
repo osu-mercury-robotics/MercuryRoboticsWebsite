@@ -9,7 +9,7 @@ tags: [eda, software, jlcpcb, kicad, easyeda, frequency, rf, heat]
 ---
 
 <div class="row mt-3 mb-3">
-    <img src = "{{site.baseurl}}/assets/img/resources/elec_pcb/Battery_Monitor_PCB.PNG" class="m-auto img-fluid rounded z-depth-1" alt="Responsive image" title="Battery Monitoring PCB">
+    <img src = "{{site.baseurl}}/assets/img/resources/elec_pcb/Battery_Monitor_PCB.PNG" class="m-auto img-fluid rounded z-depth-1" alt="Battery Monitoring PCB" title="Battery Monitoring PCB">
 </div>
 
 
@@ -31,7 +31,7 @@ Now you can move your design to software. We have had success with KiCad and Eas
 We recommend you go through the whole PCB design process with this playlist. Follow along and create the PCB with them. 
 
 <div class="row mt-3 mb-3">
-    <img src = "{{site.baseurl}}/assets/img/resources/elec_pcb/5V_Controller_Schematic.PNG" class="m-auto img-fluid rounded z-depth-1" alt="Responsive image" title="Schematic of 5V Controller">
+    <img src = "{{site.baseurl}}/assets/img/resources/elec_pcb/5V_Controller_Schematic.PNG" class="m-auto img-fluid rounded z-depth-1" alt="Schematic of 5V Controller" title="Schematic of 5V Controller">
 </div>
 
 ### Simulation
@@ -73,7 +73,7 @@ PCBs are constructed of several layers of fiberglass (or alternative) and copper
 * Move component silkscreen labels to where it's obvious which component is referred to.
 
 <div class="row mt-3 mb-3">
-    <img src = "{{site.baseurl}}/assets/img/resources/elec_pcb/3D_Model_5V_Controller.PNG" class="m-auto img-fluid rounded z-depth-1" alt="Responsive image" title="3D Model of 5V Controller">
+    <img src = "{{site.baseurl}}/assets/img/resources/elec_pcb/3D_Model_5V_Controller.PNG" class="m-auto img-fluid rounded z-depth-1" alt="3D Model of 5V Controller" title="3D Model of 5V Controller">
 </div>
 
 ### User Experience

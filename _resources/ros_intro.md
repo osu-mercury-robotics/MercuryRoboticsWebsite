@@ -23,7 +23,7 @@ ROS is implemented as a "**network**" of interconnected "**nodes**". Each progra
 As an example, lets say a program is determining how fast a mobile robot should be moving. A separate program needs that information so it can control how fast the drive motors spin.
 
 <div class="row mt-3 mb-3">
-    <img src = "{{site.baseurl}}/assets/img/resources/intro_ros/ros_network.png" class="m-auto img-fluid rounded z-depth-1" alt="Responsive image" title="ROS Network Example">
+    <img src = "{{site.baseurl}}/assets/img/resources/intro_ros/ros_network.png" class="m-auto img-fluid rounded z-depth-1" alt="ROS Network Example" title="ROS Network Example">
 </div>
 
 The above diagram shows a node titled "speed_node" publishing a message to the topic "/speed". The "wheel_drive_node" then subscribes to the "/speed" topic, receiving the information it needs.
@@ -33,7 +33,7 @@ The above diagram shows a node titled "speed_node" publishing a message to the t
 From a programming point of view, we consider two constructs called the "**Publisher**" and "**Subscriber**". A publisher will take information from a program and publish it to a topic. A subscriber will subscribe to a topic, reading the information it contains, and bring it into the program.
 
 <div class="row mt-3 mb-3">
-    <img src = "{{site.baseurl}}/assets/img/resources/intro_ros/ros_pub_sub.png" class="m-auto img-fluid rounded z-depth-1" alt="Responsive image" title="ROS Publisher and Subscriber Example">
+    <img src = "{{site.baseurl}}/assets/img/resources/intro_ros/ros_pub_sub.png" class="m-auto img-fluid rounded z-depth-1" alt="ROS Publisher and Subscriber Example" title="ROS Publisher and Subscriber Example">
 </div>
 
 An example of a basic implementation of a publisher/subscriber is given [here in python](http://wiki.ros.org/ROS/Tutorials/WritingPublisherSubscriber%28python%29)

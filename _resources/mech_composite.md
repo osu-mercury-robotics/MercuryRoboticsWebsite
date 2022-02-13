@@ -10,7 +10,7 @@ tags: [building, composite, fiber, fiberglass, carbonfiber, matrix, resin, epoxy
 ---
 
 <div class="row mt-3 mb-3">
-    <img src = "{{site.baseurl}}/assets/img/resources/mech_composites/composite_intro.png" class="m-auto img-fluid rounded z-depth-1" alt="Responsive image" title="Composite thing">
+    <img src = "{{site.baseurl}}/assets/img/resources/mech_composites/composite_intro.png" class="m-auto img-fluid rounded z-depth-1" alt="Composite Fabrics" title="Composite Fabrics">
 </div>
 
 ## Introduction
@@ -34,7 +34,7 @@ The fiber is a cloth weave that provides the strength and stiffness. It is often
 * **Kevlar** - Very robust and strong, high abrasion resistance.
 
 <div class="col-sm-6 mx-auto">
-        <img src = "{{site.baseurl}}/assets/img/resources/mech_composites/kevlar_polyester.png" class="img-fluid rounded z-depth-1 mx-auto d-block" alt="Responsive image" title="Kevlar Polyester">
+        <img src = "{{site.baseurl}}/assets/img/resources/mech_composites/kevlar_polyester.png" class="img-fluid rounded z-depth-1 mx-auto d-block" alt="Kevlar Polyester" title="Kevlar Polyester">
         <figcaption>Kevlar woven with polyester</figcaption>
 </div>
 
@@ -46,7 +46,7 @@ The matrix is normally a resin that helps disperse the load and protect the fibe
 * **Polyester** - Good curing time, cheap, easy to get.
 
 <div class="col-sm-6 mx-auto">
-        <img src = "{{site.baseurl}}/assets/img/resources/mech_composites/epoxy.png" class="img-fluid rounded z-depth-1 mx-auto d-block" alt="Responsive image" title="Epoxy">
+        <img src = "{{site.baseurl}}/assets/img/resources/mech_composites/epoxy.png" class="img-fluid rounded z-depth-1 mx-auto d-block" alt="Epoxy" title="Epoxy">
         <figcaption>2-part epoxy mixture - catalyst and base - poured together to begin reaction and start working time</figcaption>
 </div>
 
@@ -74,11 +74,11 @@ When selecting a composite material, it is important to consider what fiber and 
 
 <div class="row mt-3 mb-3">
     <div class="col-sm-6">
-        <img src = "{{site.baseurl}}/assets/img/resources/mech_composites/carbon_twill.png" class="img-fluid rounded z-depth-1 mx-auto d-block" alt="Responsive image" title="Carbon Fiber with Twill Weave">
+        <img src = "{{site.baseurl}}/assets/img/resources/mech_composites/carbon_twill.png" class="img-fluid rounded z-depth-1 mx-auto d-block" alt="Carbon Fiber with Twill Weave" title="Carbon Fiber with Twill Weave">
     <figcaption>Carbon Fiber with Twill Weave</figcaption>
     </div>
     <div class="col-sm-6">
-        <img src = "{{site.baseurl}}/assets/img/resources/mech_composites/fiberglass_square.png" class="img-fluid rounded z-depth-1 mx-auto d-block" alt="Responsive image" title="Fiberglass with Square W">
+        <img src = "{{site.baseurl}}/assets/img/resources/mech_composites/fiberglass_square.png" class="img-fluid rounded z-depth-1 mx-auto d-block" alt="Fiberglass with Square Weave" title="Fiberglass with Square Weave">
         <figcaption>Fiberglass with Square Weave</figcaption>
     </div>
 </div>
@@ -102,7 +102,7 @@ Fiber laid on either side of mold/plug. Resin is “painted” on with brushes o
 [Hand Lay-up Tutorial on Small Pieces](https://youtu.be/EhAvCqtIo7w)
 
 <div class="row mt-3 mb-3">
-    <img src = "{{site.baseurl}}/assets/img/resources/mech_composites/layup.png" class="img-fluid rounded z-depth-1 mx-auto d-block" alt="Responsive image" title="Resin Lay-up Process">
+    <img src = "{{site.baseurl}}/assets/img/resources/mech_composites/layup.png" class="img-fluid rounded z-depth-1 mx-auto d-block" alt="Resin Lay-up Process" title="Resin Lay-up Process">
     <figcaption>Resin Lay-up Process</figcaption>
 </div>
 
@@ -112,7 +112,7 @@ Fiber laid on the outside of the plug. Resin applied to the fiber by brushing/ro
 [Easy Vacuum Bagging Tutorial](https://youtu.be/cj26c3V54SQ)
 
 <div class="row mt-3 mb-3">
-    <img src = "{{site.baseurl}}/assets/img/resources/mech_composites/vacuum_bag.png" class="img-fluid rounded z-depth-1 mx-auto d-block" alt="Responsive image" title="Vacuum Bagging Process">
+    <img src = "{{site.baseurl}}/assets/img/resources/mech_composites/vacuum_bag.png" class="img-fluid rounded z-depth-1 mx-auto d-block" alt="Vacuum Bagging Process"" title="Vacuum Bagging Process">
     <figcaption>Vacuum Bagging Process</figcaption>
 </div>
 
@@ -122,7 +122,7 @@ A type of vacuum bagging. Fiber goes on inside or outside (ie mold or plug both 
 [Easy Resin Infusion Tutorial](https://youtu.be/VodfQcrXpxc)
 
 <div class="row mt-3 mb-3">
-    <img src = "{{site.baseurl}}/assets/img/resources/mech_composites/resin_infusion.png" class="img-fluid rounded z-depth-1 mx-auto d-block" alt="Responsive image" title="Resin Infusion Process">
+    <img src = "{{site.baseurl}}/assets/img/resources/mech_composites/resin_infusion.png" class="img-fluid rounded z-depth-1 mx-auto d-block" alt="Resin Infusion Process" title="Resin Infusion Process">
     <figcaption>Resin Infusion Process</figcaption>
 </div>
 
@@ -142,11 +142,11 @@ Previously on the VELA project we used the hand lay-up technique to fiberglass a
 
 <div class="row mt-3 mb-3">
     <div class="col-sm-6">
-        <img src = "{{site.baseurl}}/assets/img/resources/mech_composites/plug_layup.png" class="img-fluid rounded z-depth-1 mx-auto d-block" alt="Responsive image" title="VELA during fiberglass process">
+        <img src = "{{site.baseurl}}/assets/img/resources/mech_composites/plug_layup.png" class="img-fluid rounded z-depth-1 mx-auto d-block" alt="VELA during fiberglass process" title="VELA during fiberglass process">
     <figcaption>VELA during the hand layup of fiberglass hull</figcaption>
     </div>
     <div class="col-sm-6">
-        <img src = "{{site.baseurl}}/assets/img/resources/mech_composites/vela_complete.png" class="img-fluid rounded z-depth-1 mx-auto d-block" alt="Responsive image" title="Completed fiberglass on VELA">
+        <img src = "{{site.baseurl}}/assets/img/resources/mech_composites/vela_complete.png" class="img-fluid rounded z-depth-1 mx-auto d-block" alt="Completed fiberglass on VELA" title="Completed fiberglass on VELA">
         <figcaption>VELA after fiberglass cured</figcaption>
     </div>
 </div>
