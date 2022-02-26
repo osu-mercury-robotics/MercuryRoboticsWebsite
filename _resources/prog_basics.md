@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Programming Basics
-description: blah blah blah
+description: Introduction to programming practices
 img: 
 importance: 1
 category: Programming
