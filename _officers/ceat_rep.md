@@ -1,9 +1,9 @@
 ---
-name: Peyton Pierson
+name: 
 position: CEAT Rep
-major: Mechanical and Aerospace Engineering
-email: peyton.pierson@okstate.edu
-img: /assets/img/officers/ppierson.jpg
+major: 
+email: 
+img:
 importance: 8
 type: officer
 ---
