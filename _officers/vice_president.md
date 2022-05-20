@@ -1,9 +1,9 @@
 ---
-name: Max DeSantis
+name: Kelly Lewis
 position: Vice President
-major: Electrical and Computer Engineering
-email: max.desantis@okstate.edu
-img: /assets/img/officers/mdesantis.jpg
+major: Biosystems Engineering
+email: kelly.lewis@okstate.edu
+img: /assets/img/officers/klewis.jpg
 importance: 2
 type: officer
 ---
