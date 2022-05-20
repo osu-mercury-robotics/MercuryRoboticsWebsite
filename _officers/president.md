@@ -1,9 +1,9 @@
 ---
-name: Collin Thornton
+name: Max DeSantis
 position: President
 major: Electrical and Computer Engineering
-email: collin.thornton@okstate.edu
-img: /assets/img/officers/cthornton.jpg
+email: max.desantis@okstate.edu
+img: /assets/img/officers/mdesantis.jpg
 importance: 1
 type: officer
 ---
