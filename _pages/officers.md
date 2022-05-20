@@ -53,12 +53,14 @@ description: Our current officer team and their responsibilities
     <h2 class="category">Position Responsibilities</h2>
     <div>
         {% for officer in sorted_officers %}
-            <div class="row">
-                <div class="col">
-                    <h4 class="officer-position">{{officer.position}}</h4>
-                    <p class="officer-info">{{officer.content}}</p>
+            {% if officer.name %}
+                <div class="row">
+                    <div class="col">
+                        <h4 class="officer-position">{{officer.position}}</h4>
+                        <p class="officer-info">{{officer.content}}</p>
+                    </div>
                 </div>
-            </div>
+            {% endif %}
         {% endfor %}
     </div>
 </div>
