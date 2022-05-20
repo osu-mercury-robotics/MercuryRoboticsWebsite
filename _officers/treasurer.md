@@ -1,8 +1,8 @@
 ---
-name: Kelly Lewis
+name: John Doudican
 position: Treasurer
-major: Biosystems and Agricultural Engineering
-email: kelly.lewis@okstate.edu
+major: Electrical Engineering
+email: john.doudican10@okstate.edu
 img: /assets/img/officers/klewis.jpg
 importance: 3
 type: officer
