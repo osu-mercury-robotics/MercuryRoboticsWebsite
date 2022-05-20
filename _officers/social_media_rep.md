@@ -1,11 +1,11 @@
 ---
-name: Ryan Turner
-position: Social Media Manager
-major: Mechanical and Electrical Engineering
-email: ryan.g.turner@okstate.edu
-img: /assets/img/officers/rturner.jpg
+name: Peyton Pierson
+position: Outreach Officer
+major: Mechanical and Aerospace Engineering
+email: peyton.pierson@okstate.edu
+img: /assets/img/officers/ppierson.jpg
 importance: 9
 type: officer
 ---
 <!-- Description of the positions role and responsibilities -->
-The social media manager shall update and manage the organization through various means of social media. 
+The outreach officer shall work to gain interest towards the club from students and outside organizations. They are responsible for the maintenance of the club website and other social accounts. 
