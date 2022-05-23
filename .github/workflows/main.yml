@@ -4,7 +4,7 @@ on:
     types:
       - ready_for_review
   schedule:
-    - cron: '25 */2 * * *'
+    - cron: '25 */24 * * *'
   workflow_dispatch:
 
 jobs:
