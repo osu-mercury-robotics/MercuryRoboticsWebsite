@@ -3,7 +3,7 @@ name: John Doudican
 position: Treasurer
 major: Electrical Engineering
 email: john.doudican10@okstate.edu
-img: /assets/img/officers/klewis.jpg
+img: /assets/img/officers/jdoudican.jpeg
 importance: 3
 type: officer
 ---
