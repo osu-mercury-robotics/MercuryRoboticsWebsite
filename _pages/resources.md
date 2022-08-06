@@ -1,7 +1,7 @@
 ---
 layout: header_page
 title: Robot Wiki
-permalink: /resources/
+external: https://github.com/osu-mercury-robotics/osu-mercury-robotics.github.io/wiki
 description: A collection of various technical resources
 nav: true
 display_categories: [General, Electromechanical, Mechanical, Electronics, Programming, ROS, Website]
