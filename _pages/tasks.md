@@ -1,7 +1,7 @@
 ---
 layout: header_page
 title: Task List
-nav: true
+nav: false
 permalink: /tasks/
 description: In progress, planned, and completed goals for our projects.
 importance: 4
