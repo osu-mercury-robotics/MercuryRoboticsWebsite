@@ -6,7 +6,7 @@
 
 
   <!-- Head -->
-  <head><meta http-equiv="refresh" content="3; url=https://mercuryrobots.com/" />        
+  <head>        
     <!-- Metadata, OpenGraph and Schema.org -->
     
 
@@ -14,9 +14,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Mercury Robotics | Page not found</title>
+    <title>Mercury Robotics | Introduction to the Robot Operating System (ROS)</title>
     <meta name="author" content="  " />
-    <meta name="description" content="Looks like there has been a mistake. Nothing exists here." />
+    <meta name="description" content="Beginner intro to ROS's structure and nomenclature" />
     <meta name="keywords" content="engineering, mercury, robotics, robots, extracurricular, design, ROS, club, okstate, osu, oklahoma, state, university" />
 
     
@@ -37,7 +37,7 @@
     <link rel="icon" href="/assets/img/merc_guy.png">
 
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://mercuryrobots.com/404.html">
+    <link rel="canonical" href="https://mercuryrobots.com/resources/ros_intro/">
 
     <!-- Dark Mode -->
     <script src="/assets/js/theme.js"></script>
@@ -111,13 +111,62 @@
         <div class="post">
 
           <header class="post-header">
-            <h1 class="post-title">Page not found</h1>
-            <p class="post-description">Looks like there has been a mistake. Nothing exists here.</p>
+            <h1 class="post-title">Introduction to the Robot Operating System (ROS)</h1>
+            <p class="post-description">Beginner intro to ROS's structure and nomenclature</p>
             
           </header>
 
           <article class="post">
-            <p>You will be redirected to the main page within 3 seconds. If not redirected, please click <a href="https://mercuryrobots.com/">here</a>.</p>
+            <h2 id="introduction">Introduction</h2>
+<p>The <a href="https://www.ros.org/" target="_blank" rel="noopener noreferrer">Robotic Operating System (ROS)</a> is a software development kit (SDK) that provides many important functionalities desirable when programming robots. Despite its name, it is not an operating system; it can run on both Windows and Linux. A newer version of ROS, called ROS2, is being developed and adopted. The two versions have variations, but conceptually are very similar.</p>
+
+<p>The most important part of ROS is its ability to <strong>send messages between separately running programs</strong>. For example, a Python program can use ROS to easily send information to a separate program written in C++. It even allows for programs on separate computers to communicate. This allows for incredible flexibility and modularity in design, as well as the opportunity to reuse repetitive code between projects/applications.</p>
+
+<p>ROS has a sharp learning curve. The best way to figure it out is to <strong>go out and tinker with it</strong> - make something with the help of tutorials and it’ll start to click.</p>
+
+<h2 id="conceptual-components">Conceptual Components</h2>
+<p>ROS is implemented as a “<strong>network</strong>” of interconnected “<strong>nodes</strong>”. Each program or piece of software on the network will comprise of one or more nodes sending and receiving information amongst the network. Information is sent in pre-defined formats collectively called “<strong>messages</strong>”, of which there are a huge variety. The links that pass messages between nodes are called “<strong>topics</strong>” and have a pre-defined name that nodes agree on.</p>
+
+<p>As an example, lets say a program is determining how fast a mobile robot should be moving. A separate program needs that information so it can control how fast the drive motors spin.</p>
+
+<div class="row mt-3 mb-3">
+    <img src="/assets/img/resources/intro_ros/ros_network.png" class="m-auto img-fluid rounded z-depth-1" alt="ROS Network Example" title="ROS Network Example">
+</div>
+
+<p>The above diagram shows a node titled “speed_node” publishing a message to the topic “/speed”. The “wheel_drive_node” then subscribes to the “/speed” topic, receiving the information it needs.</p>
+
+<h2 id="programming-components">Programming Components</h2>
+
+<p>From a programming point of view, we consider two constructs called the “<strong>Publisher</strong>” and “<strong>Subscriber</strong>”. A publisher will take information from a program and publish it to a topic. A subscriber will subscribe to a topic, reading the information it contains, and bring it into the program.</p>
+
+<div class="row mt-3 mb-3">
+    <img src="/assets/img/resources/intro_ros/ros_pub_sub.png" class="m-auto img-fluid rounded z-depth-1" alt="ROS Publisher and Subscriber Example" title="ROS Publisher and Subscriber Example">
+</div>
+
+<p>An example of a basic implementation of a publisher/subscriber is given <a href="http://wiki.ros.org/ROS/Tutorials/WritingPublisherSubscriber%28python%29" target="_blank" rel="noopener noreferrer">here in python</a></p>
+
+<p>An example of a basic implementation of a publisher/subscriber is given <a href="http://wiki.ros.org/ROS/Tutorials/WritingPublisherSubscriber%28c%2B%2B%29" target="_blank" rel="noopener noreferrer">here in C++</a></p>
+
+<h2 id="other-features">Other Features</h2>
+
+<p>The ROS ecosystem has several important features that streamline development. Firstly, ROS allows for logging and data collection to assist in debugging. That data can be replayed to review it. ROS ties into the Gazebo simulator, allowing for a ROS network and production code to be tested in a simulator before deployment to hardware.</p>
+
+<p>There is relatively widespread community and industry support for ROS. Publicly available algorithms, drivers, and other ROS nodes can be found as “packages” and easily implemented into a project. Avoid reinventing the wheel when not necessary and save yourself some time!</p>
+
+<h2 id="versions">Versions</h2>
+
+<p>As mentioned before, ROS2 is being actively developed as an improvement over ROS1. The rollout is gradual and ROS1 will continue to be supported for a few more years.</p>
+
+<p>A new version of ROS is “released” every so often. In general, packages developed for one version should not be considered compatible with a separate version.</p>
+
+<p>ROS1 distributions are “Melodic” and “Noetic”, where “Noetic” is newer and recommend.
+ROS2 distributions are “Foxy” and “Galactic” where “Galactic” is recommended.</p>
+
+<h2 id="more-resources">More Resources</h2>
+
+<p><a href="http://wiki.ros.org/ROS/Tutorials" target="_blank" rel="noopener noreferrer">ROS1 Tutorials</a></p>
+
+<p><a href="http://docs.ros.org/" target="_blank" rel="noopener noreferrer">ROS2 Documentation</a></p>
 
           </article>
 

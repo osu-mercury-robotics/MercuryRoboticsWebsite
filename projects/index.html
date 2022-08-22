@@ -6,7 +6,7 @@
 
 
   <!-- Head -->
-  <head><meta http-equiv="refresh" content="3; url=https://mercuryrobots.com/" />        
+  <head>        
     <!-- Metadata, OpenGraph and Schema.org -->
     
 
@@ -14,9 +14,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Mercury Robotics | Page not found</title>
+    <title>Mercury Robotics | Projects</title>
     <meta name="author" content="  " />
-    <meta name="description" content="Looks like there has been a mistake. Nothing exists here." />
+    <meta name="description" content="all of our projects: past, present, future" />
     <meta name="keywords" content="engineering, mercury, robotics, robots, extracurricular, design, ROS, club, okstate, osu, oklahoma, state, university" />
 
     
@@ -37,7 +37,7 @@
     <link rel="icon" href="/assets/img/merc_guy.png">
 
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://mercuryrobots.com/404.html">
+    <link rel="canonical" href="https://mercuryrobots.com/projects/">
 
     <!-- Dark Mode -->
     <script src="/assets/js/theme.js"></script>
@@ -66,9 +66,9 @@
             <ul class="navbar-nav ml-auto flex-nowrap">
 
               <!-- Other pages -->
-              <li class="nav-item ">
+              <li class="nav-item active">
                 
-                  <a class="nav-link" href="/projects/">Projects</a>
+                  <a class="nav-link" href="/projects/">Projects<span class="sr-only">(current)</span></a>
                 
               </li>
               <li class="nav-item ">
@@ -110,14 +110,56 @@
       <!-- page.html -->
         <div class="post">
 
-          <header class="post-header">
-            <h1 class="post-title">Page not found</h1>
-            <p class="post-description">Looks like there has been a mistake. Nothing exists here.</p>
-            
+          <header class="header-bar">
+            <h1 class="post-title">Projects</h1>
+            <h2 class="post-description">all of our projects: past, present, future</h2>
           </header>
 
-          <article class="post">
-            <p>You will be redirected to the main page within 3 seconds. If not redirected, please click <a href="https://mercuryrobots.com/">here</a>.</p>
+          <!-- <div class="header-bar">
+            <h1>Projects</h1>
+            <h2>all of our projects: past, present, future</h2>
+          </div> -->
+
+          <article>
+            <!-- pages/projects.md -->
+
+<div class="projects">
+  <!-- Display categorized projects -->
+  <h2 class="category">present</h2>
+  <!-- Generate cards for each project -->
+  <div class="grid">
+    <!-- _includes/projects.html -->
+    <div class="grid-item">
+      <a href="/projects/dorado/">
+        <div class="card hoverable">
+          <div class="card-body">
+            <h2 class="card-title text-lowercase">DORADO</h2>
+            <p class="card-text">Device for Open-water Research with Aerial Docking Operations. Autonomous pontoon for detecting algal blooms in lakes with quadcopter-carrying capabilities.</p>
+            <div class="row ml-1 mr-1 p-0">
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+  <h2 class="category">past</h2>
+  <!-- Generate cards for each project -->
+  <div class="grid">
+    <!-- _includes/projects.html -->
+    <div class="grid-item">
+      <a href="/projects/competition/">
+        <div class="card hoverable">
+          <div class="card-body">
+            <h2 class="card-title text-lowercase">Competition</h2>
+            <p class="card-text">Previously, Mercury hosted an interstate robotics competition.</p>
+            <div class="row ml-1 mr-1 p-0">
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
 
           </article>
 
